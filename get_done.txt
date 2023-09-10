@@ -1,7 +1,6 @@
     Get data 
     Create virtual environment 
-Add to gitignore
-Add relevant files and folders to gitignore 
+    Add relevant files and folders to gitignore 
 Add preliminary Readme
 Write down vision and scope of the project 
 Write down business requirements 

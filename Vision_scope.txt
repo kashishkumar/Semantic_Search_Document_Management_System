@@ -1,0 +1,21 @@
+Vision - Build a semantic search based query engine for quotation, importer Agreement and taxinvoice using large language model 
+
+Scope -
+1. Can read word, excel, pdf, csv files for information
+2. Use Retrieval Augmented Generation (RAG) to build a query engine for the documents | If required model finetuning can be done 
+3. Have a vector database for the query system to have semantic search
+4. Use LLama2 model as the large language model for the query system
+5. No external API calls can be made since the data is confidential
+6. In house deployment on a CPU server 
+7. Backend API to be built for the query system
+8. Frontend to be built by the client using C# or any other language
+
+
+
+
+
+Questions ?
+1. Do we want separate model for each document type ?
+2. Do we want to use RAG or finetuning of the model ?
+
+

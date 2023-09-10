@@ -1,0 +1,5 @@
+RAG -  Retrieval Augmented Generation for Knowledge-Intensive NLP Tasks
+    RAG models retrieve documents, pass them to a seq2seq model, then marginalize to generate outputs.
+    https://huggingface.co/docs/transformers/model_doc/rag
+    https://arxiv.org/abs/2005.11401
+    
