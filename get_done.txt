@@ -1,0 +1,16 @@
+    Get data 
+    Create virtual environment 
+Add to gitignore
+Add relevant files and folders to gitignore 
+Add preliminary Readme
+Write down vision and scope of the project 
+Write down business requirements 
+Have a preliminary system design 
+Decide what database, model and libraries to use
+Create high level classes, functions and APIs
+Install required packages
+Fill in the details of the classes, functions and APIs
+Test the code
+Write unit tests
+Write integration tests
+
