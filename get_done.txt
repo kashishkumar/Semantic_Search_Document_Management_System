@@ -4,15 +4,25 @@
     Write down vision and scope of the project 
     Write down business requirements 
     Have a preliminary system design 
-Do some research 
+    Do some research 
 Make ChatGPT understand LlamaIndex using a plugin 
 Finalise the system design 
-Decide what database, model and libraries to use
-Create high level classes, functions and APIs
+    Decide what database, model and libraries to use
+    Create high level classes, functions and APIs
 Add preliminary Readme
-Install required packages
+    Install required packages
 Fill in the details of the classes, functions and APIs
 Test the code
 Write unit tests
 Write integration tests
+
+
+Check hardware requirements for LLama2
+Add custom llm
+Complete apis 
+Check connection with frontend 
+Fix data upload connection 
+Look into using embeddings for indexing 
+
+
 
