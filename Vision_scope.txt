@@ -9,13 +9,17 @@ Scope -
 6. In house deployment on a CPU server 
 7. Backend API to be built for the query system
 8. Frontend to be built by the client using C# or any other language
+9. User may want to add new documents to the system for the query system to work
+10. User may want to summarise the document as well 
 
-
-
+Is deployment part of the scope ?
 
 
 Questions ?
 1. Do we want separate model for each document type ?
 2. Do we want to use RAG or finetuning of the model ?
+3. How big of a model can be used for inference since they are CPU based and require a lot of memory, the variants available are 7B, 13B, 70B, 180B
+4. Is quantisation required for deployment ?
+5. What are the questions that the user will ask ? How to customise for the user ?
 
 

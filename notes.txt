@@ -2,4 +2,42 @@ RAG -  Retrieval Augmented Generation for Knowledge-Intensive NLP Tasks
     RAG models retrieve documents, pass them to a seq2seq model, then marginalize to generate outputs.
     https://huggingface.co/docs/transformers/model_doc/rag
     https://arxiv.org/abs/2005.11401
+
+
+LlamaIndex 
+    https://gpt-index.readthedocs.io/en/latest/
+    Data connectors - connects PDFs, APIs, and databases to the index
+    Data indexes - Intermediate representations of the data
+    Engines - Query(retrieval interfaces) and chat (conversational)
+    pip instal llama-index
+
+    Llama Hub - Custom data connectors
+    Llama Lab - projects on top of LlamaIndex
+
+    OpenAI default - gpt-3.5-turbo and embedding-ada-002
+    Local default - LlamaCPP and llam2-chat-13B for text generation and BAAI/bge-small-en for retrieval and embeddings
+
+    install llama-cpp-python (11.5 GB)
+
+    local embeddings - pip install sentence-transformers (500 MB)
+
+    Example folder - git clone https://github.com/jerryjliu/llama_index.git 
+
+    Try out examples/paul_graham_essay 
+
+    Metadata Extractor 
+
+Analyzing Financial reports with  LlamaIndex and OpenAI
+    SubQuestionQueryEngine can be used to break down a complex query into many questions and answer each and then have a response synthesiser for final result
+
+    LLM Predictor 
+    Service Context
+    Simple Directory Reader - reads a directory with multiple pdf files 
+    Create index of the documents 
+    Build query engine
+
     
+
+
+
+   
