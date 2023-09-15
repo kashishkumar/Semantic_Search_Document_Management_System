@@ -4,8 +4,7 @@ from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from llama_index import LangchainEmbedding, ServiceContext
 from llama_index import VectorStoreIndex, SimpleDirectoryReader
 
-openai.api_key = "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"
-
+openai.api_key = "OPENAI_API_KEY"
 
 documents =  SimpleDirectoryReader('data').load_data()
 index = VectorStoreIndex.from_documents(documents)
