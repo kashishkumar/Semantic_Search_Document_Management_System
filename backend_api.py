@@ -23,6 +23,9 @@ async def upload_file(file: UploadFile = File(...)):
     file_content = await file.read()  # Read file content
     doc_id = str(uuid4())  # Generate a unique ID for the document
     documents[doc_id] = file_content  # Store in memory
+    documents_, nodes = load_data(file_content)
+    index = index_data(documents_, nodes)
+    query_engine = build_query_engine(index)
     return {
         "doc_id": doc_id,
         "filename": file.filename
@@ -30,8 +33,9 @@ async def upload_file(file: UploadFile = File(...)):
 
 
 @app.get("/query/{query}")
-async def query(query: str):
-    return None
+async def query(query: str, query_engine = None):
+    response = output_response(query_engine, query)
+    return response
 
 
 @app.get("/summarise/")
