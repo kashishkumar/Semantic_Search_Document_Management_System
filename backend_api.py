@@ -28,7 +28,8 @@ async def upload_file(file: UploadFile = File(...)):
     query_engine = build_query_engine(index)
     return {
         "doc_id": doc_id,
-        "filename": file.filename
+        "filename": file.filename,
+        "query_engine": query_engine
     }
 
 
