@@ -3,7 +3,7 @@ Vision - Build a semantic search based query engine for quotation, importer Agre
 Scope -
 1. Can read word, excel, pdf, csv files for information
 2. Use Retrieval Augmented Generation (RAG) to build a query engine for the documents | If required model finetuning can be done 
-3. Have a vector database for the query system to have semantic search
+3. Have a vector database for the query system to have semantic search and store till 500 documents 
 4. Use LLama2 model as the large language model for the query system
 5. No external API calls can be made since the data is confidential
 6. In house deployment on a CPU server 
@@ -16,10 +16,10 @@ Is deployment part of the scope ?
 
 
 Questions ?
-1. Do we want separate model for each document type ?
-2. Do we want to use RAG or finetuning of the model ?
-3. How big of a model can be used for inference since they are CPU based and require a lot of memory, the variants available are 7B, 13B, 70B, 180B
-4. Is quantisation required for deployment ?
+1. Do we want separate model for each document type ? No
+2. Do we want to use RAG or finetuning of the model ? RAG
+3. How big of a model can be used for inference since they are CPU based and require a lot of memory, the variants available are 7B, 13B, 70B, 180B 
+4. Is quantisation required for deployment ? 
 5. What are the questions that the user will ask ? How to customise for the user ?
 
 
