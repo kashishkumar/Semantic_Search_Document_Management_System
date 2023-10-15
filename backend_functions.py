@@ -4,6 +4,7 @@ from llama_index import Document
 from llama_index.node_parser import SimpleNodeParser
 import os
 import openai
+openai.api_key = "OPENAI_API_KEY"
 
 def load_data(uploaded_file):
     # Create test list using uploaded file content
@@ -40,7 +41,14 @@ def output_response(query_engine, query):
     return response
 
 def show_response(response):
-    print(response)    
-
+    print(response) 
+    
+def all(uploaded_file, query):
+    documents, nodes = load_data(uploaded_file)
+    index = index_data(documents, nodes)
+    query_engine = build_query_engine(index)
+    response = output_response(query_engine, query)
+    show_response(response)
+    
 def summarize():
     return None
