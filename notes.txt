@@ -36,8 +36,10 @@ Analyzing Financial reports with  LlamaIndex and OpenAI
     Create index of the documents 
     Build query engine
 
-    
+Hardware requirements for LLama2 
+    https://www.hardware-corner.net/guides/computer-to-run-llama-ai-model/
+    13B model - 16 GB RAM ~ 7 tokens/second
 
 
-
-   
+Summary 
+    https://docs.llamaindex.ai/en/stable/examples/index_structs/doc_summary/DocSummary.html
