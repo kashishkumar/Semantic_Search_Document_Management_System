@@ -7,7 +7,7 @@ from llama_index.indices.document_summary import DocumentSummaryIndex
 from llama_index.llms import OpenAI
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 
 
 chatgpt = OpenAI(temperature=0, model="gpt-3.5-turbo")
