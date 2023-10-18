@@ -2,7 +2,7 @@ from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext,
 from llama_index.llms import OpenAI
 import openai
 import torch
-#openai.api_key = "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"
+#openai.api_key = ""
 
 def load_documents(documents_directory):
     documents = SimpleDirectoryReader(documents_directory).load_data()
